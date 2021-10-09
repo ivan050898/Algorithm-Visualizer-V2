@@ -1,0 +1,493 @@
+body {
+    background-color: #E9E9E9;
+}
+
+  .CircularButton1 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    outline-style:initial;
+    border-radius: 100px;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto;
+    padding: 0;
+  
+    overflow: hidden;
+  
+    border-width: 0;
+    outline: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .8);
+    
+    background-color: #8a1b7a
+;
+    color: #ecf0f1;
+    
+    transition: background-color .3s;
+  }
+  
+  .CircularButton1:hover, .CircularButton1:focus {
+    background-color: #8a1b7a
+;
+  }
+  
+  .CircularButton1 > * {
+    position: relative;
+  }
+  
+  .CircularButton1 span {
+    display: block;
+    padding: 12px 24px;
+  }
+  
+  .CircularButton1:before {
+    content: "";
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    display: block;
+    width: 0;
+    padding-top: 0;
+      
+    border-radius: 100%;
+    
+    background-color: rgba(236, 240, 241, .3);
+    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .CircularButton1:active:before {
+    width: 120%;
+    padding-top: 120%;
+    
+    transition: width .2s ease-out, padding-top .2s ease-out;
+  }
+  
+  .CircularButton1 i {
+    vertical-align: middle; 
+    text-align: center;
+    display: table-cell;
+    text-decoration:none;
+    top:10%;
+    left:100%;
+  }
+
+
+
+
+
+/*-------------------------------------------------*/
+
+.CircularButton2 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    outline-style:initial;
+    border-radius: 100px;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto;
+    padding: 0;
+  
+    overflow: hidden;
+  
+    border-width: 0;
+    outline: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .8);
+    
+    background-color: #3daad6;
+
+;
+    color: #ecf0f1;
+    
+    transition: background-color .3s;
+  }
+  
+  .CircularButton2:hover, .CircularButton2:focus {
+    background-color: #3daad6;
+  }
+  
+  .CircularButton2 > * {
+    position: relative;
+  }
+  
+  .CircularButton2 span {
+    display: block;
+    padding: 12px 24px;
+  }
+  
+  .CircularButton2:before {
+    content: "";
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    display: block;
+    width: 0;
+    padding-top: 0;
+      
+    border-radius: 100%;
+    
+    background-color: rgba(236, 240, 241, .3);
+    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .CircularButton2:active:before {
+    width: 120%;
+    padding-top: 120%;
+    
+    transition: width .2s ease-out, padding-top .2s ease-out;
+  }
+
+  .CircularButton2 i {
+    vertical-align: middle; 
+    text-align: center;
+    display: table-cell;
+    text-decoration:none;
+    top:10%;
+    left:160%;
+  }
+
+/*---------------------------------------*/
+
+.CircularButton3 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    outline-style:initial;
+    border-radius: 100px;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto;
+    padding: 0;
+  
+    overflow: hidden;
+  
+    border-width: 0;
+    outline: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .8);
+    
+    background-color: #6baa41;
+    color: #ecf0f1;
+    
+    transition: background-color .3s;
+  }
+  
+  .CircularButton3:hover, .CircularButton3:focus {
+    background-color: #6baa41
+;
+  }
+  
+  .CircularButton3 > * {
+    position: relative;
+  }
+  
+  .CircularButton3 span {
+    display: block;
+    padding: 12px 24px;
+  }
+  
+  .CircularButton3:before {
+    content: "";
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    display: block;
+    width: 0;
+    padding-top: 0;
+      
+    border-radius: 100%;
+    
+    background-color: rgba(236, 240, 241, .3);
+    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .CircularButton3:active:before {
+    width: 120%;
+    padding-top: 120%;
+    
+    transition: width .2s ease-out, padding-top .2s ease-out;
+  }
+
+  .CircularButton3 i {
+    vertical-align: middle; 
+    text-align: center;
+    display: table-cell;
+    text-decoration:none;
+    top:10%;
+    left:110%;
+  }
+
+  /*---------------------------------------*/
+  
+.CircularButton4 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    outline-style:initial;
+    border-radius: 100px;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto;
+    padding: 0;
+  
+    overflow: hidden;
+  
+    border-width: 0;
+    outline: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .8);
+    
+    background-color: #dea336
+
+;
+    color: #ecf0f1;
+    
+    transition: background-color .3s;
+  }
+  
+  .CircularButton4:hover, .CircularButton4:focus {
+    background-color: #dea336
+
+;
+  }
+  
+  .CircularButton4 > * {
+    position: relative;
+  }
+  
+  .CircularButton4 span {
+    display: block;
+    padding: 12px 24px;
+  }
+  
+  .CircularButton4:before {
+    content: "";
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    display: block;
+    width: 0;
+    padding-top: 0;
+      
+    border-radius: 100%;
+    
+    background-color: rgba(236, 240, 241, .3);
+    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .CircularButton4:active:before {
+    width: 120%;
+    padding-top: 120%;
+    
+    transition: width .2s ease-out, padding-top .2s ease-out;
+  }
+  /* Styles, not important */
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+  .CircularButton4 i {
+    vertical-align: middle; 
+    text-align: center;
+    display: table-cell;
+    text-decoration:none;
+    top:10%;
+    left:81%;
+  }
+
+  
+  /*---------------------------------------*/
+  
+.CircularButton5 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    outline-style:initial;
+    border-radius: 100px;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto;
+    padding: 0;
+  
+    overflow: hidden;
+  
+    border-width: 0;
+    outline: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .8);
+    
+    background-color: #d94e47
+
+
+;
+    color: #ecf0f1;
+    
+    transition: background-color .3s;
+  }
+  
+  .CircularButton5:hover, .CircularButton5:focus {
+    background-color:#d94e47
+
+
+;
+  }
+  
+  .CircularButton5 > * {
+    position: relative;
+  }
+  
+  .CircularButton5 span {
+    display: block;
+    padding: 12px 24px;
+  }
+  
+  .CircularButton5:before {
+    content: "";
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    display: block;
+    width: 0;
+    padding-top: 0;
+      
+    border-radius: 100%;
+    
+    background-color: rgba(236, 240, 241, .3);
+    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .CircularButton5:active:before {
+    width: 120%;
+    padding-top: 120%;
+    
+    transition: width .2s ease-out, padding-top .2s ease-out;
+  }
+  .CircularButton5 i {
+    vertical-align: middle; 
+    text-align: center;
+    display: table-cell;
+    text-decoration:none;
+    top:10%;
+    left:120%;
+  }
+  /*---------------------------------------*/
+  
+.CircularButton6 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    outline-style:initial;
+    border-radius: 100px;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto;
+    padding: 0;
+  
+    overflow: hidden;
+  
+    border-width: 0;
+    outline: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .8);
+    
+    background-color: #969fb9
+
+
+
+;
+    color: #ecf0f1;
+    
+    transition: background-color .3s;
+  }
+  
+  .CircularButton6:hover, .CircularButton6:focus {
+    background-color:#969fb9
+
+
+
+;
+  }
+  
+  .CircularButton6 > * {
+    position: relative;
+  }
+  
+  .CircularButton6 span {
+    display: block;
+    padding: 12px 24px;
+  }
+  
+  .CircularButton6:before {
+    content: "";
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    display: block;
+    width: 0;
+    padding-top: 0;
+      
+    border-radius: 100%;
+    
+    background-color: rgba(236, 240, 241, .3);
+    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .CircularButton6:active:before {
+    width: 120%;
+    padding-top: 120%;
+    
+    transition: width .2s ease-out, padding-top .2s ease-out;
+  }
+  /*  */
+  .CircularButton6 i {
+    vertical-align: middle; 
+    text-align: center;
+    display: table-cell;
+    text-decoration:none;
+    top:10%;
+    left:140%;
+  }
+  
+  h2 {
+    font-weight: normal;
+  }
+  
+  
